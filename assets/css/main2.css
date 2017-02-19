@@ -1,0 +1,67 @@
+.navigation {
+	background-color: #337AB7;
+	font-size: 20px;
+}
+.form_div {
+	background-color: grey;
+	font-size: 20px;
+}
+.section-one {
+	margin-top: 5em
+}
+.section-one-blog {
+	margin-top: 2em
+}
+.images p {
+	text-align: left;
+}
+.blog {
+	margin-top: 3em;
+}
+.blog-one{
+	margin-top: 0em;
+}
+.blog-images{
+	text-align: left;
+}
+.blog-images-side-bar{
+	text-align: left;
+	padding-top: 1em;
+}
+.blog-post{
+	text-align: justify;
+	margin-top: 3em;
+}
+.blog-post-side-bar{
+	text-align: left;
+	margin-top: 1em;
+}
+.side-bar{
+	float: right;
+	background-color: lightgrey;
+	margin-bottom: 2em;
+}
+.thank_you {
+	margin: 5em 0em 27.2em 0em;
+}
+.footer-blog{
+	padding: 0.5em 0em 0.5em 0em;
+	margin-top: 2em;
+	background-color: lightgrey;
+}
+.footer-what-we-do{
+	padding: 0.5em 0em 0.5em 0em;
+	margin-top: 3em;
+	background-color: lightgrey;
+}
+.footer-thank-you{
+	padding: 0.5em 0em 0.5em 0em;
+	margin-top: 10em;
+	background-color: lightgrey;
+}
+
+.footer {
+	padding: 0.5em 0em 0.5em 0em;
+	margin-top: 10em;
+	background-color: lightgrey;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Log in</title>
+
+       <!-- <Bootsarap> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+       <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse navigation">
+        <div class="container-fluid">
+            <div class="navbar-neader">
+               <a class="navbar-brand" href="login.html">Tech Bang</a>
+            </div>
+                   <!-- sign up button -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="signup.html">Sign up</a></li>
+            </ul>
+                    <!-- sign in button -->
+            <ul class="nav navbar-nav navbar-right">
+               <li class="active"><a href="login.html">Login in</a></li>
+            </ul>
+        </div> 
+    </nav>
+
+    <!-- Sign in Section-->
+    <section class="container-fluid">
+        <div class="col-md-12">
+            <center>
+                <div class="login_form_wrapper">
+                    <div class="login-wrapper">
+                        <div><p><i>Please log in to continue</i></p></div>
+
+                     <!-- Login Form -->
+                     <div>
+                     <form>
+                        <div class="form-inline">
+                        <center>
+                            <span class="fb">
+                            <p>
+                            <a href="http://facebook.com" type="button" class="btn btn-danger">
+                            Log in with Facebook 
+                            </a>
+                            </p>
+                            </span>
+                            <span class="google">
+                            <p>
+                            <a href="http://gmail.com" type="button" class="btn btn-primary">
+                            Log in with Google
+                            </a>
+                            </p>
+                            </span>  
+
+                            <div class="form-inline login-email">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                            </div>
+                            <br>
+                            <div class="form-inline login-pw">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <br>
+                            <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                            <br>
+                            <a href="forgot_password.html" class="login_signup_text">Forgot Your Password?</a>
+                        </center>
+                        </div>
+                    </form>
+                        <div class="login_signup_text">
+                        <p>
+                        Don't have an Account? 
+                        <a href="signup.html" class="login_signup_text">Sign up</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+             </center>         
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container-fluid footer">
+        <center>
+            <h6>2016 Tech Bang Ltd. All Rights Reserved &copy; .  Designed by Emeka Nwachukwu (aka - brist)</h6>
+        </center>
+    </footer>
+    <!-- JQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Query -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
